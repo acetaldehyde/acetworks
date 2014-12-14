@@ -80,6 +80,11 @@ section {
   margin: 0 0 40px 0;
 }
 
+article{
+    border: 3px solid black;
+    padding: 5px;
+}
+
 footer {
   position: fixed;
   bottom: 0;
@@ -103,4 +108,21 @@ footer {
   overflow: hidden;
   padding: 0;
   position: absolute;
+}
+
+/* Index */
+/*----------------------------------------------------------*/
+#index-title{
+    text-align: center;
+}
+h3.page-title{
+    font-family: 'Impact';
+    border-bottom: 8px solid Black;
+    font-size: 5em;
+    margin-bottom: 0;
+}
+p.page-caption{
+    font-family: 'Impact';
+    font-size: 1.5em;
+    margin-top: 0;
 }
