@@ -98,6 +98,16 @@ footer {
   box-shadow: 0 2px 15px 5px #AAA;
 }
 
+#sidebar{
+    background-color: black;
+    width: 200px;
+    margin-left: 5px;
+    box-shadow: 0 2px 15px 5px #AAA;
+}
+#sidebar div{
+    color: white;
+}
+
 /* 隠し文字 */
 .hidden {
   border: none;
@@ -115,14 +125,61 @@ footer {
 #index-title{
     text-align: center;
 }
-h3.page-title{
+.page-title{
     font-family: 'Impact';
     border-bottom: 8px solid Black;
     font-size: 5em;
+    margin-bottom: 0;
+}
+p.division{
+    font-family: 'Impact';
+    font-size: 1.3em;
     margin-bottom: 0;
 }
 p.page-caption{
     font-family: 'Impact';
     font-size: 1.5em;
     margin-top: 0;
+}
+div#latest-posts{
+    border:3px solid;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.a-post p{
+    text-decoration: none;
+    color: black;
+    font-family: arial black;
+}
+div.a-post p a{
+    text-decoration: none;
+    color: black;
+    font-family: arial black;
+}
+div.a-post p a:hover{
+    text-decoration: none;
+    color: #AAA;
+    font-family: arial black;
+}
+
+/* single */
+/*-----------------------------------------------------------*/
+h3.single {
+  border-left: 4px solid Black;
+  padding-left: 10px;
+  font-family: arial black;
+}
+
+/* archive */
+/*-------------------------------------------------------------*/
+a.link_title{
+    text-decoration: none;
+    color: black;
+    font-family: arial black;
+}
+a.link_title:hover{
+    text-decoration: none;
+    color: #AAA;
+    font-family: arial black;
 }
