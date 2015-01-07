@@ -162,6 +162,9 @@ div.a-post p a:hover{
     color: #AAA;
     font-family: arial black;
 }
+div.top-image-area a img{
+    max-width: 100%;
+}
 
 /* single */
 /*-----------------------------------------------------------*/

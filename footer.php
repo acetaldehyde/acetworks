@@ -8,3 +8,5 @@ and open the template in the editor.
     <p id="copyright"><small>&copy; Acetaldehyde 2014</small></p>
 </footer><!-- /footer -->
 <?php wp_footer() ?>
+</body>
+</html>

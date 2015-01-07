@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <?php
 get_header();
 ?>
@@ -11,6 +5,15 @@ get_header();
     <section id="index-title">
         <span class="page-title">ACETWORKS</span>
         <p class="page-caption">Create any creation.</p>
+        
+        <div class="top-image-area">
+            <?php
+                query_posts('post_type=top_image&post_per_page=1');
+                if ( have_posts() ) while ( have_posts() ) : the_post();
+            ?>
+            <a href="<?php echo get_field('image') ?>"><img src="<?php echo get_field('image') ?>"/></a>
+            <?php endwhile; ?>
+        </div>
         
         <p class="division">Latest posts</p>
         <div id="latest-posts">

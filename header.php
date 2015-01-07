@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<?php
-wp_head();
-?>
 <html lang="ja">
     <head>
         <meta charset="utf-8">
+        <link rel="SHORTCUT ICON" href="<?php echo get_template_directory_uri() ?>/images/icon.ico">
         <title><?php bloginfo(); ?></title>
+        <?php wp_head() ?>
     </head>
     <body>
     <header>
